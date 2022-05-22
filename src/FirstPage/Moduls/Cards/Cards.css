@@ -1,0 +1,18 @@
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 0 0;
+}
+
+.cards__item {
+    width: calc(25% - 37.5px);
+    margin: 0 50px 50px 0;
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px gainsboro !important;
+}
+
+.cards__item:nth-child(4n) {
+    margin: 0 0 50px 0;
+}
+

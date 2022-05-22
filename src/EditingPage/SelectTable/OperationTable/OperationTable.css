@@ -1,0 +1,68 @@
+.operationTable input + span {
+  opacity: 0;
+  overflow: auto;
+  position: absolute;
+  padding: 0 10px 0 5px;
+  white-space: nowrap;
+}
+.operationTable .rowMove {
+  position: absolute;
+  left: -33px;
+}
+.operationTable .rowUp {
+  top: -1px;
+}
+.operationTable .rowDown {
+  bottom: -1px;
+}
+.operationTable .groupButton {
+  display: flex;
+}
+.operationTable .groupButton button {
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 32px;
+}
+
+.buttonEditItemOperationModalWindow .textFields {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttonEditItemOperationModalWindow .textField {
+  width: calc(50% - 15px);
+  margin: 0 30px 30px 0;
+}
+.buttonEditItemOperationModalWindow .textField:nth-child(2n) {
+  margin: 0 0 30px 0;
+}
+.buttonEditItemOperationModalWindow .textField:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+.buttonEditItemOperationModalWindow .MuiFormHelperText-root {
+  position: absolute;
+  top: 52px;
+}
+
+.MuiMenu-list {
+  padding: 0 !important;
+}
+
+.inputCheckboxs {
+  display: flex;
+  margin: 15px 0 0 0;
+}
+
+.buttonAddContentModalWindow .contentOperation {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.buttonAddContentModalWindow .contentOperation__item {
+  width: 33.333%;
+}
+.buttonAddContentModalWindow .MuiFormHelperText-root {
+  position: absolute;
+  top: 52px;
+}
+
+/*# sourceMappingURL=OperationTable.css.map */

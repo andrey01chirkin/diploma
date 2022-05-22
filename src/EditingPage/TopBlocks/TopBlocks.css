@@ -1,0 +1,124 @@
+.header__rows__block2 {
+  width: 100%;
+}
+
+.header__first__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__name, .header__marking {
+  margin-right: 10px;
+}
+
+.header_lists {
+  display: flex;
+}
+
+.header_lists > * {
+  margin-right: 10px;
+}
+
+.header__second__row {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 0 0;
+}
+
+.header__second__row > * {
+  margin: 0 10px 0 0;
+}
+
+.header__second__row > *:last-child {
+  margin: 0;
+}
+
+.header__sort {
+  margin-right: 10px;
+}
+
+.buttonAddItemTransitionModalWindow .MuiDialog-paper {
+  width: 400px;
+}
+.buttonAddItemTransitionModalWindow .MuiFormHelperText-root {
+  position: absolute;
+  bottom: -20px;
+}
+
+.buttonAddItemEquipmentModalWindow .MuiDialog-paper {
+  width: 400px;
+}
+.buttonAddItemEquipmentModalWindow .TextFieldsEquipmentData {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.buttonAddItemEquipmentModalWindow .TextFieldsEquipmentData .TextFieldEquipmentData {
+  margin-bottom: 30px;
+}
+.buttonAddItemEquipmentModalWindow .TextFieldsEquipmentData .TextFieldEquipmentData:last-child {
+  margin-bottom: 10px;
+}
+.buttonAddItemEquipmentModalWindow .MuiFormHelperText-root {
+  position: absolute;
+  bottom: -20px;
+}
+
+.buttonAddItemAdaptationModalWindow .MuiDialog-paper {
+  width: 400px;
+}
+.buttonAddItemAdaptationModalWindow .TextFieldsAdaptationData {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.buttonAddItemAdaptationModalWindow .TextFieldsAdaptationData .TextFieldAdaptationData {
+  margin-bottom: 30px;
+}
+.buttonAddItemAdaptationModalWindow .TextFieldsAdaptationData .TextFieldAdaptationData:last-child {
+  margin-bottom: 10px;
+}
+.buttonAddItemAdaptationModalWindow .MuiFormHelperText-root {
+  position: absolute;
+  bottom: -20px;
+}
+
+.buttonAddItemToolModalWindow .MuiDialog-paper {
+  width: 400px;
+}
+.buttonAddItemToolModalWindow .TextFieldsToolData {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.buttonAddItemToolModalWindow .TextFieldsToolData .TextFieldToolData {
+  margin-bottom: 30px;
+}
+.buttonAddItemToolModalWindow .TextFieldsToolData .TextFieldToolData:last-child {
+  margin-bottom: 10px;
+}
+.buttonAddItemToolModalWindow .MuiFormHelperText-root {
+  position: absolute;
+  bottom: -20px;
+}
+
+.buttonAddOperationBottomModalWindow .textFields {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttonAddOperationBottomModalWindow .textField {
+  width: calc(50% - 15px);
+  margin: 0 30px 30px 0;
+}
+.buttonAddOperationBottomModalWindow .textField:nth-child(2n) {
+  margin: 0 0 30px 0;
+}
+.buttonAddOperationBottomModalWindow .textField:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+.buttonAddOperationBottomModalWindow .MuiFormHelperText-root {
+  position: absolute;
+  top: 52px;
+}
+
+/*# sourceMappingURL=TopBlocks.css.map */

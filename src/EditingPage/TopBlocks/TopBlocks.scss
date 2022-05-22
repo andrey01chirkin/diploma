@@ -1,0 +1,143 @@
+
+.header__rows__block2 {
+  width: 100%;
+}
+
+.header__first__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__name, .header__marking {
+  margin-right: 10px;
+}
+
+.header_lists {
+  display: flex;
+}
+
+.header_lists > * {
+  margin-right: 10px;
+}
+
+.header__second__row {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 0 0;
+}
+
+.header__second__row > * {
+  margin: 0 10px 0 0;
+}
+
+.header__second__row > *:last-child {
+  margin: 0;
+}
+
+.header__sort {
+  margin-right: 10px;
+}
+
+.buttonAddItemTransitionModalWindow {
+  & .MuiDialog-paper {
+    width: 400px;
+  }
+
+  & .MuiFormHelperText-root {
+    position: absolute;
+    bottom: -20px;
+  }
+
+}
+
+.buttonAddItemEquipmentModalWindow {
+  & .MuiDialog-paper {
+    width: 400px;
+  }
+  & .TextFieldsEquipmentData {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    & .TextFieldEquipmentData {
+      margin-bottom: 30px;
+    }
+    & .TextFieldEquipmentData:last-child {
+      margin-bottom: 10px;
+    }
+  }
+
+  & .MuiFormHelperText-root {
+    position: absolute;
+    bottom: -20px;
+  }
+}
+
+.buttonAddItemAdaptationModalWindow {
+  & .MuiDialog-paper {
+    width: 400px;
+  }
+  & .TextFieldsAdaptationData {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    & .TextFieldAdaptationData {
+      margin-bottom: 30px;
+    }
+    & .TextFieldAdaptationData:last-child {
+      margin-bottom: 10px;
+    }
+  }
+
+  & .MuiFormHelperText-root {
+    position: absolute;
+    bottom: -20px;
+  }
+}
+
+.buttonAddItemToolModalWindow {
+  & .MuiDialog-paper {
+    width: 400px;
+  }
+  & .TextFieldsToolData {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    & .TextFieldToolData {
+      margin-bottom: 30px;
+    }
+    & .TextFieldToolData:last-child {
+      margin-bottom: 10px;
+    }
+  }
+
+  & .MuiFormHelperText-root {
+    position: absolute;
+    bottom: -20px;
+  }
+}
+
+.buttonAddOperationBottomModalWindow {
+  & .textFields {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  & .textField {
+    width: calc(50% - 15px);
+    margin: 0 30px 30px 0;
+  }
+
+  & .textField:nth-child(2n) {
+    margin: 0 0 30px 0;
+  }
+
+  & .textField:nth-last-child(-n+2){
+    margin-bottom: 0;
+  }
+
+  & .MuiFormHelperText-root {
+    position: absolute;
+    top: 52px;
+  }
+}
+

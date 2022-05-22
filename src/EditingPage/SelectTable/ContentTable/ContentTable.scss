@@ -1,0 +1,87 @@
+
+.contentTable {
+
+  border: none;
+
+  tr {
+    border-bottom: none;
+  }
+
+  tr:last-child td {
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  th {
+    background-color: #E0E0E0;
+  }
+
+  td {
+    border-right: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+  }
+
+  & .groupButton {
+    display: flex;
+  }
+
+  & .groupButton button{
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 32px;
+  }
+}
+
+
+.buttonEditItemContentModalWindow {
+  & .MuiDialog-paper{
+    max-width: none;
+    width: 400px;
+  }
+
+  & .textFields {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & .textField {
+    margin: 0 0 30px 0;
+  }
+
+  & .MuiFormHelperText-root {
+    position: absolute;
+    top: 52px;
+  }
+
+}
+
+.buttonAddExecutorModalWindow {
+  & .MuiDialog-paper{
+    max-width: none;
+    width: 600px;
+  }
+
+  & .contentExecutor {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  & .contentExecutor__item {
+    width: calc(50% - 15px);
+    margin: 0 30px 30px 0;
+  }
+
+  & .contentExecutor__item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  & .MuiFormHelperText-root {
+    position: absolute;
+    top: 52px;
+  }
+
+}
+
+
+
+
+

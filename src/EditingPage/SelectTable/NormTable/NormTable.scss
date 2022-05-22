@@ -1,0 +1,49 @@
+
+.normTable {
+
+  border: none;
+
+  tr {
+    border-bottom: none;
+  }
+
+  tr:last-child td {
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  th {
+    background-color: #E0E0E0;
+  }
+
+  td {
+    border-right: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+  }
+
+  .groupButton button {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 32px;
+  }
+
+}
+
+.buttonEditItemExecutorModalWindow {
+  & .textFields {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  & .textField {
+    width: calc(50% - 15px);
+    margin: 0 30px 30px 0;
+  }
+
+  & .textField:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  & .MuiFormHelperText-root {
+    position: absolute;
+    top: 52px;
+  }
+}

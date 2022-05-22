@@ -1,0 +1,81 @@
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 30px 0;
+  border: 2px solid #eeeeee;
+  padding: 20px;
+}
+
+.header__first {
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0;
+}
+
+.header__second {
+  border-radius: 0 0 10px 10px;
+  margin-top: 0;
+  position: relative;
+  top: -2px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+th {
+  padding: 7px 5px;
+  background-color: #E0E0E0;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  border-right: 1px solid #bdbebd;
+}
+
+th:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+th:last-child {
+  border-radius: 0 5px 0 0;
+  border-right: none;
+}
+
+th p {
+  margin: 0;
+  display: inline;
+}
+
+th .resizer {
+  position: absolute;
+  height: 100%;
+  width: 9px;
+  right: -5px;
+  z-index: 100;
+  top: 0;
+  cursor: col-resize;
+}
+
+td {
+  padding: 5px 10px;
+  cursor: default;
+  border-right: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+}
+
+td > div {
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=EditingPage.css.map */
